@@ -1,1 +1,1 @@
-# thamani
+# GITWizard3000.thamani
