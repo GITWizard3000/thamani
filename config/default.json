@@ -1,3 +1,4 @@
 {
-    "mongoURI": "mongodb+srv://lunga97:lunga97@cluster0.jn4e6.mongodb.net/Cluster0?retryWrites=true&w=majority"
-}
+    "mongoURI": "mongodb+srv://lunga97:lunga97@cluster0.jn4e6.mongodb.net/Cluster0?retryWrites=true&w=majority",
+    "jwtSecret": "mysecrettoken"
+} 
