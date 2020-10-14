@@ -15,7 +15,8 @@ module.exports = function(req, res, next) {
 
         req.user = decoded.user;
     
-
+        // call next bit of middleware
+        next()
     } catch(err) {
         res.status(401).json ({ msg: 'Token is not valid'});
 
