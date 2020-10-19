@@ -3,7 +3,7 @@ const Schema = mongoose.Schema;
 
 const PostSchema = new Schema({
     user: {
-        type: Schema.Types.ObjectsId,
+        type: Schema.Types.ObjectId,
         ref: 'users'
 
     },
@@ -54,4 +54,4 @@ const PostSchema = new Schema({
     }
 });
 
-module.exports = Post = mongoose.model('psot', PostSchema);
+module.exports = Post = mongoose.model('post', PostSchema);
