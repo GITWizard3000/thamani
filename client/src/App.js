@@ -13,21 +13,19 @@ import './App.css';
 
 const App = () => (
   <Provider store={store}>
-  <Router>
-    <Fragment>
-     <Navbar />
-     <Route exact path="/" component={Landing} />
-     <section className="container">
-        <Switch>
-          <Route exact path='/register' component={Register} />
-          <Route exact path='/login' component={Login} />
+    <Router>
+      <Fragment>
+        <Navbar />
+        <Route exact path="/" component={Landing} />
+        <section className="container">
+          <Switch>
+            <Route exact path='/register' component={Register} />
+            <Route exact path='/login' component={Login} />
 
-        </Switch>
-
-
-     </section>
-    </Fragment>
-  </Router>
+          </Switch>
+        </section>
+      </Fragment>
+    </Router>
   </Provider>
   );
 
