@@ -1,4 +1,4 @@
-import axious from Axios;
+import axios from 'axios';
 
 const setAuthToken = token => {
     if(token) {
