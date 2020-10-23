@@ -3,7 +3,7 @@ import { Link, Redirect } from 'react-router-dom';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types'
 
-export const Landing = ({ isAuthenticated}) => {
+export const Landing = ({ isAuthenticated }) => {
   if(isAuthenticated) {
     return<Redirect to='/dashboard' />
   }
