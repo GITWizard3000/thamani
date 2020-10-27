@@ -96,7 +96,7 @@ const onSubmit = async e => {
 };
 
 Register.propTypes = {
-  selAlert: PropTypes.func.isRequired,
+  setAlert: PropTypes.func.isRequired,
   register: PropTypes.func.isRequired,
   isAuthenticated: PropTypes.bool
 
