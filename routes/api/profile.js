@@ -323,7 +323,7 @@ router.put(
  }
 });
 
-// @route    DELETE api/profile/education/:exp_id
+// @route    DELETE api/profile/education/:edu_id
 // @desc     Delete education from profile
 // @access   Private
 router.delete('/education/:edu_id', auth, async(req, res) => {
